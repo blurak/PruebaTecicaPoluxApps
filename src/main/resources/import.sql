@@ -1,0 +1,16 @@
+INSERT INTO  productos (unidad,precio,etiqueta,descripcion) VALUES ('Metro 2',40000,'Tableta','Tableta para piso');
+INSERT INTO  productos (unidad,precio,etiqueta,descripcion) VALUES ('Metro 2',30000,'Tableta','Tableta para pared');
+INSERT INTO  productos (unidad,precio,etiqueta,descripcion) VALUES ('Metro',10000,'Tela Jean','Tela para jeans');
+INSERT INTO  productos (unidad,precio,etiqueta,descripcion) VALUES ('Litro',3600,'Leche','Leche de vaca');
+INSERT INTO  productos (unidad,precio,etiqueta,descripcion) VALUES ('Kilo',45000,'Acero HSS','Acero HSS para CNC');
+INSERT INTO  cotizacionproductos (cantidad_cotizar,producto_id) VALUES (30,1);
+INSERT INTO  cotizacionproductos (cantidad_cotizar,producto_id) VALUES (2,1);
+INSERT INTO  servicios (unidad,precio,precio_fijo,etiqueta,descripcion) VALUES ('Metro 2',20000,0,'Instalación tableta piso','sadsdasdas');
+INSERT INTO  servicios (unidad,precio,precio_fijo,etiqueta,descripcion) VALUES ('Metro 2',20000,0,'Instalación tableta pared','sadsdasdas');
+INSERT INTO  servicios (unidad,precio,precio_fijo,etiqueta,descripcion) VALUES ('Litro',100000,1,'Toma de medidas','sadsdasdas');
+INSERT INTO  servicios (unidad,precio,precio_fijo,etiqueta,descripcion) VALUES ('Litro',200,0,'Pasteurización de lácteos','sadsdasdas');
+INSERT INTO  servicios (unidad,precio,precio_fijo,etiqueta,descripcion) VALUES ('Hora',50000,0,'ServicioTorno,Fresadora y CNC','sadsdasdas');
+INSERT INTO  cotizacionservicios (cantidad_cotizar,servicio_id) VALUES (1,1);
+INSERT INTO  cotizacionservicios (cantidad_cotizar,servicio_id) VALUES (1,2);
+INSERT INTO  cotizacionservicios (cantidad_cotizar,servicio_id) VALUES (1,3);
+INSERT INTO  cotizacionservicios (cantidad_cotizar,servicio_id) VALUES (1,4);
